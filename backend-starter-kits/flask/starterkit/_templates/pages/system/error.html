@@ -1,0 +1,32 @@
+{% extends layout %}
+
+{% block title %}System Error{% endblock %}
+
+{% block content %}
+
+<!--begin::500 Page-->
+<div class="d-flex flex-column flex-center text-center flex-column-fluid p-10">
+    <!--begin::Illustration-->
+    <img src="{{ asset('media/illustrations/sketchy-1/5.png') }}" alt="" class="theme-light-show mw-100 mb-10 h-lg-350px"/>
+    <img src="{{ asset('media/illustrations/sketchy-1/5-dark.png') }}" alt="" class="theme-dark-show mw-100 mb-10 h-lg-350px"/>
+    <!--end::Illustration-->
+
+    <!--begin::Heading-->
+    <h1 class="fw-bold fs-2qx text-gray-800 mb-10">System Error</h1>
+    <!--end::Heading-->
+
+    <!--begin::Message-->
+    <div class="fw-semibold fs-3 text-muted mb-15">
+        Something went wrong! <br/> Please try again later.
+    </div>
+    <!--end::Message-->
+
+    <!--begin::Action-->
+    <div class="text-center">
+        <a href="/" class="btn btn-primary">Return Home</a>
+    </div>
+    <!--end::Action-->
+</div>
+<!--end::500 Page-->
+
+{% endblock content %}

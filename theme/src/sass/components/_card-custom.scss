@@ -1,0 +1,15 @@
+//
+// Custom card
+//
+
+.card {
+	background-color: $card-custom-bg;
+	border: 1px $card-border-style $card-custom-border-color;
+}
+
+@include color-mode(dark) {
+	.card {
+		background-color: $card-custom-bg-dark;
+		border: 1px $card-border-style $card-custom-border-color-dark;
+	}
+}	

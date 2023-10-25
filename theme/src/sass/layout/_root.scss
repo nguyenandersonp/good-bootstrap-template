@@ -1,0 +1,281 @@
+//
+// Root
+//
+
+// Light mode
+@include color-mode(light) {
+    // Sidebar
+    --#{$prefix}app-sidebar-logo-icon-custom-hover-color: #{$app-sidebar-logo-icon-custom-hover-color};
+
+    // Light sidebar
+    --#{$prefix}app-light-sidebar-page-bg-color: #{$app-light-sidebar-page-bg-color};    
+    --#{$prefix}app-light-sidebar-bg-color: #{$app-light-sidebar-bg-color};
+
+    --#{$prefix}app-light-sidebar-logo-icon-custom-color: #{$app-light-sidebar-logo-icon-custom-color};
+
+    --#{$prefix}app-light-sidebar-scrollbar-color: #{$app-light-sidebar-scrollbar-color};
+    
+    --#{$prefix}app-light-sidebar-separator-color: #{$app-light-sidebar-separator-color};
+    
+    --#{$prefix}app-light-sidebar-btn-custom-color: #{$app-light-sidebar-btn-custom-color};
+    --#{$prefix}app-light-sidebar-btn-custom-bg-color: #{$app-light-sidebar-btn-custom-bg-color};
+    --#{$prefix}app-light-sidebar-btn-custom-bg-color-active: #{$app-light-sidebar-btn-custom-bg-color-active};
+    
+    --#{$prefix}app-light-sidebar-select-custom-color: #{$app-light-sidebar-select-custom-color};
+    --#{$prefix}app-light-sidebar-select-custom-bg-color: #{$app-light-sidebar-select-custom-bg-color};
+    
+    --#{$prefix}app-light-sidebar-menu-heading-color: #{$app-light-sidebar-menu-heading-color};
+    --#{$prefix}app-light-sidebar-menu-root-link-color: #{$app-light-sidebar-menu-root-link-color};
+    --#{$prefix}app-light-sidebar-menu-root-icon-color: #{$app-light-sidebar-menu-root-icon-color};
+    --#{$prefix}app-light-sidebar-menu-root-bullet-color: #{$app-light-sidebar-menu-root-bullet-color};
+    --#{$prefix}app-light-sidebar-menu-root-arrow-color: #{$app-light-sidebar-menu-root-arrow-color};
+    --#{$prefix}app-light-sidebar-menu-root-link-color-hover: #{$app-light-sidebar-menu-root-link-color-hover};
+    --#{$prefix}app-light-sidebar-menu-root-icon-color-hover: #{$app-light-sidebar-menu-root-icon-color-hover};
+    --#{$prefix}app-light-sidebar-menu-root-bullet-color-hover: #{$app-light-sidebar-menu-root-bullet-color-hover};
+    --#{$prefix}app-light-sidebar-menu-root-arrow-color-hover: #{$app-light-sidebar-menu-root-arrow-color-hover};
+    --#{$prefix}app-light-sidebar-menu-link-color: #{$app-light-sidebar-menu-link-color};
+    --#{$prefix}app-light-sidebar-menu-icon-color: #{$app-light-sidebar-menu-icon-color};
+    --#{$prefix}app-light-sidebar-menu-bullet-color: #{$app-light-sidebar-menu-bullet-color};
+    --#{$prefix}app-light-sidebar-menu-arrow-color: #{$app-light-sidebar-menu-arrow-color};
+    --#{$prefix}app-light-sidebar-menu-link-color-hover: #{$app-light-sidebar-menu-link-color-hover};
+    --#{$prefix}app-light-sidebar-menu-icon-color-hover: #{$app-light-sidebar-menu-icon-color-hover};
+    --#{$prefix}app-light-sidebar-menu-bullet-color-hover: #{$app-light-sidebar-menu-bullet-color-hover};
+    --#{$prefix}app-light-sidebar-menu-arrow-color-hover: #{$app-light-sidebar-menu-arrow-color-hover};
+
+    --#{$prefix}app-light-sidebar-header-search-icon-color: #{$app-light-sidebar-header-search-icon-color};
+    --#{$prefix}app-light-sidebar-header-search-input-color: #{$app-light-sidebar-header-search-input-color};
+    --#{$prefix}app-light-sidebar-header-search-input-border-color: #{$app-light-sidebar-header-search-input-border-color};
+    --#{$prefix}app-light-sidebar-header-search-input-placeholder-color: #{$app-light-sidebar-header-search-input-placeholder-color};
+    
+    --#{$prefix}app-light-sidebar-header-navbar-btn-custom-color: #{$app-light-sidebar-header-navbar-btn-custom-color};
+    --#{$prefix}app-light-sidebar-header-navbar-btn-custom-icon-color: #{$app-light-sidebar-header-navbar-btn-custom-icon-color};
+    --#{$prefix}app-light-sidebar-header-navbar-btn-custom-border-color: #{$app-light-sidebar-header-navbar-btn-custom-border-color};
+
+    // Dark sidebar
+    --#{$prefix}app-dark-sidebar-page-bg-color: #{$app-dark-sidebar-page-bg-color};  
+    
+    --#{$prefix}app-dark-sidebar-bg-color: #{$app-dark-sidebar-bg-color};
+    
+    --#{$prefix}app-dark-sidebar-scrollbar-color: #{$app-dark-sidebar-scrollbar-color};
+
+    --#{$prefix}app-dark-sidebar-separator-color: #{$app-dark-sidebar-separator-color};
+
+    --#{$prefix}app-dark-sidebar-btn-custom-color: #{$app-dark-sidebar-btn-custom-color};
+    --#{$prefix}app-dark-sidebar-btn-custom-bg-color: #{$app-dark-sidebar-btn-custom-bg-color};
+    --#{$prefix}app-dark-sidebar-btn-custom-bg-color-active: #{$app-dark-sidebar-btn-custom-bg-color-active};
+    
+    --#{$prefix}app-dark-sidebar-select-custom-color: #{$app-dark-sidebar-select-custom-color};
+    --#{$prefix}app-dark-sidebar-select-custom-bg-color: #{$app-dark-sidebar-select-custom-bg-color};
+    
+    --#{$prefix}app-dark-sidebar-header-search-input-border-color: #{$app-dark-sidebar-header-search-input-border-color};
+
+    --#{$prefix}app-dark-sidebar-header-navbar-btn-custom-border-color: #{$app-dark-sidebar-header-navbar-btn-custom-border-color};
+
+
+    // Light header
+    --#{$prefix}app-light-header-page-bg-color: #{$app-light-header-page-bg-color};  
+    --#{$prefix}app-light-header-page-card-bg-color: #{$app-light-header-page-card-bg-color};  
+    --#{$prefix}app-light-header-page-card-border-color: #{$app-light-header-page-card-border-color};  
+
+    --#{$prefix}app-light-header-toolbar-bg-color: #{$app-light-header-toolbar-bg-color}; 
+
+    --#{$prefix}app-light-header-bg-color: #{$app-light-header-bg-color}; 
+    
+    --#{$prefix}app-light-header-border-color: #{$app-light-header-border-color}; 
+    
+    --#{$prefix}app-light-header-btn-custom-color: #{$app-light-header-btn-custom-color}; 
+    --#{$prefix}app-light-header-btn-custom-bg-color: #{$app-light-header-btn-custom-bg-color}; 
+    --#{$prefix}app-light-header-btn-custom-border-color: #{$app-light-header-btn-custom-border-color}; 
+    
+    --#{$prefix}app-light-header-search-icon-color: #{$app-light-header-search-icon-color}; 
+    --#{$prefix}app-light-header-search-input-color: #{$app-light-header-search-input-color}; 
+    --#{$prefix}app-light-header-search-input-border-color: #{$app-light-header-search-input-border-color}; 
+    --#{$prefix}app-light-header-search-input-bg-color: #{$app-light-header-search-input-bg-color}; 
+    --#{$prefix}app-light-header-search-input-placeholder-color: #{$app-light-header-search-input-placeholder-color}; 
+    
+    --#{$prefix}app-light-header-menu-link-bg-color-active: #{$app-light-header-menu-link-bg-color-active}; 
+    --#{$prefix}app-light-header-menu-link-color: #{$app-light-header-menu-link-color}; 
+    --#{$prefix}app-light-header-menu-icon-color: #{$app-light-header-menu-icon-color}; 
+    --#{$prefix}app-light-header-menu-bullet-color: #{$app-light-header-menu-bullet-color}; 
+    --#{$prefix}app-light-header-menu-arrow-color: #{$app-light-header-menu-arrow-color}; 
+    --#{$prefix}app-light-header-menu-link-color-hover: #{$app-light-header-menu-link-color-hover}; 
+    --#{$prefix}app-light-header-menu-icon-color-hover: #{$app-light-header-menu-icon-color-hover};     
+    --#{$prefix}app-light-header-menu-bullet-color-hover: #{$app-light-header-menu-bullet-color-hover};     
+    --#{$prefix}app-light-header-menu-arrow-color-hover: #{$app-light-header-menu-arrow-color-hover};     
+    --#{$prefix}app-light-header-menu-bullet-color-active: #{$app-light-header-menu-bullet-color-active};     
+
+    // Dark header
+    --#{$prefix}app-dark-header-page-bg-color: #{$app-dark-header-page-bg-color};  
+    --#{$prefix}app-dark-header-page-card-bg-color: #{$app-dark-header-page-card-bg-color};  
+    --#{$prefix}app-dark-header-page-card-border-color: #{$app-dark-header-page-card-border-color};  
+
+    --#{$prefix}app-dark-header-border-color: #{$app-dark-header-border-color};
+    --#{$prefix}app-dark-header-toolbar-bg-color: #{$app-dark-header-toolbar-bg-color};
+
+    --#{$prefix}app-dark-header-btn-custom-bg-color: #{$app-dark-header-btn-custom-bg-color};
+
+    --#{$prefix}app-dark-header-search-input-border-color: #{$app-dark-header-search-input-border-color};
+    --#{$prefix}app-dark-header-search-input-bg-color: #{$app-dark-header-search-input-bg-color};
+
+    --#{$prefix}app-dark-header-menu-link-bg-color-active: #{$app-dark-header-menu-link-bg-color-active};
+
+    // Mini sidebar
+    --#{$prefix}app-mini-sidebar-page-bg-color: #{$app-mini-sidebar-page-bg-color};  
+    --#{$prefix}app-mini-sidebar-menu-bg-color: #{$app-mini-sidebar-menu-bg-color};
+
+    --#{$prefix}app-mini-sidebar-header-search-input-border-color: #{$app-mini-sidebar-header-search-input-border-color};
+    --#{$prefix}app-mini-sidebar-header-search-input-bg-color: #{$app-mini-sidebar-header-search-input-bg-color};
+
+    --#{$prefix}app-mini-sidebar-header-btn-custom-border-color: #{$app-mini-sidebar-header-btn-custom-border-color};
+    --#{$prefix}app-mini-sidebar-header-btn-custom-border-color-active: #{$app-mini-sidebar-header-btn-custom-border-color-active};
+
+    // Overlay
+    --#{$prefix}app-overlay-page-bg-color: #{$app-overlay-page-bg-color};  
+    --#{$prefix}app-overlay-page-card-bg-color: #{$app-overlay-page-card-bg-color};  
+    --#{$prefix}app-overlay-page-card-border-color: #{$app-overlay-page-card-border-color};  
+
+    --#{$prefix}app-overlay-sidebar-bg-color: #{$app-overlay-sidebar-bg-color};
+
+    --#{$prefix}app-overlay-sidebar-menu-shadow-color: #{$app-overlay-sidebar-menu-shadow-color};
+    --#{$prefix}app-overlay-sidebar-menu-icon-color: #{$app-overlay-sidebar-menu-icon-color};
+    --#{$prefix}app-overlay-sidebar-menu-link-bg-color: #{$app-overlay-sidebar-menu-link-bg-color};
+}
+
+// Dark mode
+@include color-mode(dark) {
+	// Sidebar
+    --#{$prefix}app-sidebar-logo-icon-custom-hover-color: #{$app-sidebar-logo-icon-custom-hover-color-dark};
+
+    // Light sidebar
+    --#{$prefix}app-light-sidebar-page-bg-color: #{$app-light-sidebar-page-bg-color-dark};    
+    --#{$prefix}app-light-sidebar-bg-color: #{$app-light-sidebar-bg-color-dark};
+
+    --#{$prefix}app-light-sidebar-logo-icon-custom-color: #{$app-light-sidebar-logo-icon-custom-color-dark};
+
+    --#{$prefix}app-light-sidebar-scrollbar-color: #{$app-light-sidebar-scrollbar-color-dark};
+    
+    --#{$prefix}app-light-sidebar-separator-color: #{$app-light-sidebar-separator-color-dark};
+    
+    --#{$prefix}app-light-sidebar-btn-custom-color: #{$app-light-sidebar-btn-custom-color-dark};
+    --#{$prefix}app-light-sidebar-btn-custom-bg-color: #{$app-light-sidebar-btn-custom-bg-color-dark};
+    --#{$prefix}app-light-sidebar-btn-custom-bg-color-active: #{$app-light-sidebar-btn-custom-bg-color-active-dark};
+    
+    --#{$prefix}app-light-sidebar-select-custom-color: #{$app-light-sidebar-select-custom-color-dark};
+    --#{$prefix}app-light-sidebar-select-custom-bg-color: #{$app-light-sidebar-select-custom-bg-color-dark};
+    
+    --#{$prefix}app-light-sidebar-menu-heading-color: #{$app-light-sidebar-menu-heading-color-dark};
+    --#{$prefix}app-light-sidebar-menu-root-link-color: #{$app-light-sidebar-menu-root-link-color-dark};
+    --#{$prefix}app-light-sidebar-menu-root-icon-color: #{$app-light-sidebar-menu-root-icon-color-dark};
+    --#{$prefix}app-light-sidebar-menu-root-bullet-color: #{$app-light-sidebar-menu-root-bullet-color-dark};
+    --#{$prefix}app-light-sidebar-menu-root-arrow-color: #{$app-light-sidebar-menu-root-arrow-color-dark};
+    --#{$prefix}app-light-sidebar-menu-root-link-color-hover: #{$app-light-sidebar-menu-root-link-color-hover-dark};
+    --#{$prefix}app-light-sidebar-menu-root-icon-color-hover: #{$app-light-sidebar-menu-root-icon-color-hover-dark};
+    --#{$prefix}app-light-sidebar-menu-root-bullet-color-hover: #{$app-light-sidebar-menu-root-bullet-color-hover-dark};
+    --#{$prefix}app-light-sidebar-menu-root-arrow-color-hover: #{$app-light-sidebar-menu-root-arrow-color-hover-dark};
+    --#{$prefix}app-light-sidebar-menu-link-color: #{$app-light-sidebar-menu-link-color-dark};
+    --#{$prefix}app-light-sidebar-menu-icon-color: #{$app-light-sidebar-menu-icon-color-dark};
+    --#{$prefix}app-light-sidebar-menu-bullet-color: #{$app-light-sidebar-menu-bullet-color-dark};
+    --#{$prefix}app-light-sidebar-menu-arrow-color: #{$app-light-sidebar-menu-arrow-color-dark};
+    --#{$prefix}app-light-sidebar-menu-link-color-hover: #{$app-light-sidebar-menu-link-color-hover-dark};
+    --#{$prefix}app-light-sidebar-menu-icon-color-hover: #{$app-light-sidebar-menu-icon-color-hover-dark};
+    --#{$prefix}app-light-sidebar-menu-bullet-color-hover: #{$app-light-sidebar-menu-bullet-color-hover-dark};
+    --#{$prefix}app-light-sidebar-menu-arrow-color-hover: #{$app-light-sidebar-menu-arrow-color-hover-dark};
+
+    --#{$prefix}app-light-sidebar-header-search-icon-color: #{$app-light-sidebar-header-search-icon-color-dark};
+    --#{$prefix}app-light-sidebar-header-search-input-color: #{$app-light-sidebar-header-search-input-color-dark};
+    --#{$prefix}app-light-sidebar-header-search-input-border-color: #{$app-light-sidebar-header-search-input-border-color-dark};
+    --#{$prefix}app-light-sidebar-header-search-input-placeholder-color: #{$app-light-sidebar-header-search-input-placeholder-color-dark};
+    
+    --#{$prefix}app-light-sidebar-header-navbar-btn-custom-color: #{$app-light-sidebar-header-navbar-btn-custom-color-dark};
+    --#{$prefix}app-light-sidebar-header-navbar-btn-custom-icon-color: #{$app-light-sidebar-header-navbar-btn-custom-icon-color-dark};
+    --#{$prefix}app-light-sidebar-header-navbar-btn-custom-border-color: #{$app-light-sidebar-header-navbar-btn-custom-border-color-dark};
+
+    // Dark sidebar
+    --#{$prefix}app-dark-sidebar-page-bg-color: #{$app-dark-sidebar-page-bg-color-dark};  
+    
+    --#{$prefix}app-dark-sidebar-bg-color: #{$app-dark-sidebar-bg-color-dark};
+    
+    --#{$prefix}app-dark-sidebar-scrollbar-color: #{$app-dark-sidebar-scrollbar-color-dark};
+
+    --#{$prefix}app-dark-sidebar-separator-color: #{$app-dark-sidebar-separator-color-dark};
+
+    --#{$prefix}app-dark-sidebar-btn-custom-color: #{$app-dark-sidebar-btn-custom-color-dark};
+    --#{$prefix}app-dark-sidebar-btn-custom-bg-color: #{$app-dark-sidebar-btn-custom-bg-color-dark};
+    --#{$prefix}app-dark-sidebar-btn-custom-bg-color-active: #{$app-dark-sidebar-btn-custom-bg-color-active-dark};
+    
+    --#{$prefix}app-dark-sidebar-select-custom-color: #{$app-dark-sidebar-select-custom-color-dark};
+    --#{$prefix}app-dark-sidebar-select-custom-bg-color: #{$app-dark-sidebar-select-custom-bg-color-dark};
+    
+    --#{$prefix}app-dark-sidebar-header-search-input-border-color: #{$app-dark-sidebar-header-search-input-border-color-dark};
+
+    --#{$prefix}app-dark-sidebar-header-navbar-btn-custom-border-color: #{$app-dark-sidebar-header-navbar-btn-custom-border-color}-dark;
+
+
+    // Light header
+    --#{$prefix}app-light-header-page-bg-color: #{$app-light-header-page-bg-color-dark};  
+    --#{$prefix}app-light-header-page-card-bg-color: #{$app-light-header-page-card-bg-color-dark};  
+    --#{$prefix}app-light-header-page-card-border-color: #{$app-light-header-page-card-border-color-dark};  
+
+    --#{$prefix}app-light-header-toolbar-bg-color: #{$app-light-header-toolbar-bg-color-dark}; 
+
+    --#{$prefix}app-light-header-bg-color: #{$app-light-header-bg-color-dark}; 
+    
+    --#{$prefix}app-light-header-border-color: #{$app-light-header-border-color-dark}; 
+    
+    --#{$prefix}app-light-header-btn-custom-color: #{$app-light-header-btn-custom-color-dark}; 
+    --#{$prefix}app-light-header-btn-custom-bg-color: #{$app-light-header-btn-custom-bg-color-dark}; 
+    --#{$prefix}app-light-header-btn-custom-border-color: #{$app-light-header-btn-custom-border-color-dark}; 
+    
+    --#{$prefix}app-light-header-search-icon-color: #{$app-light-header-search-icon-color-dark}; 
+    --#{$prefix}app-light-header-search-input-color: #{$app-light-header-search-input-color-dark}; 
+    --#{$prefix}app-light-header-search-input-border-color: #{$app-light-header-search-input-border-color-dark}; 
+    --#{$prefix}app-light-header-search-input-bg-color: #{$app-light-header-search-input-bg-color-dark}; 
+    --#{$prefix}app-light-header-search-input-placeholder-color: #{$app-light-header-search-input-placeholder-color-dark}; 
+    
+    --#{$prefix}app-light-header-menu-link-bg-color-active: #{$app-light-header-menu-link-bg-color-active-dark}; 
+    --#{$prefix}app-light-header-menu-link-color: #{$app-light-header-menu-link-color-dark}; 
+    --#{$prefix}app-light-header-menu-icon-color: #{$app-light-header-menu-icon-color-dark}; 
+    --#{$prefix}app-light-header-menu-bullet-color: #{$app-light-header-menu-bullet-color-dark}; 
+    --#{$prefix}app-light-header-menu-arrow-color: #{$app-light-header-menu-arrow-color-dark}; 
+    --#{$prefix}app-light-header-menu-link-color-hover: #{$app-light-header-menu-link-color-hover-dark}; 
+    --#{$prefix}app-light-header-menu-icon-color-hover: #{$app-light-header-menu-icon-color-hover-dark};     
+    --#{$prefix}app-light-header-menu-bullet-color-hover: #{$app-light-header-menu-bullet-color-hover-dark};     
+    --#{$prefix}app-light-header-menu-arrow-color-hover: #{$app-light-header-menu-arrow-color-hover-dark};     
+    --#{$prefix}app-light-header-menu-bullet-color-active: #{$app-light-header-menu-bullet-color-active-dark};     
+
+    // Dark header
+    --#{$prefix}app-dark-header-page-bg-color: #{$app-dark-header-page-bg-color-dark};  
+    --#{$prefix}app-dark-header-page-card-bg-color: #{$app-dark-header-page-card-bg-color-dark};  
+    --#{$prefix}app-dark-header-page-card-border-color: #{$app-dark-header-page-card-border-color-dark};  
+
+    --#{$prefix}app-dark-header-border-color: #{$app-dark-header-border-color-dark};
+    --#{$prefix}app-dark-header-toolbar-bg-color: #{$app-dark-header-toolbar-bg-color-dark};
+
+    --#{$prefix}app-dark-header-btn-custom-bg-color: #{$app-dark-header-btn-custom-bg-color-dark};
+
+    --#{$prefix}app-dark-header-search-input-border-color: #{$app-dark-header-search-input-border-color-dark};
+    --#{$prefix}app-dark-header-search-input-bg-color: #{$app-dark-header-search-input-bg-color-dark};
+
+    --#{$prefix}app-dark-header-menu-link-bg-color-active: #{$app-dark-header-menu-link-bg-color-active-dark};
+
+    // Mini sidebar
+    --#{$prefix}app-mini-sidebar-page-bg-color: #{$app-mini-sidebar-page-bg-color-dark};  
+    --#{$prefix}app-mini-sidebar-menu-bg-color: #{$app-mini-sidebar-menu-bg-color-dark};
+
+    --#{$prefix}app-mini-sidebar-header-search-input-border-color: #{$app-mini-sidebar-header-search-input-border-color-dark};
+    --#{$prefix}app-mini-sidebar-header-search-input-bg-color: #{$app-mini-sidebar-header-search-input-bg-color-dark};
+
+    --#{$prefix}app-mini-sidebar-header-btn-custom-border-color: #{$app-mini-sidebar-header-btn-custom-border-color-dark};
+    --#{$prefix}app-mini-sidebar-header-btn-custom-border-color-active: #{$app-mini-sidebar-header-btn-custom-border-color-active-dark};
+
+    // Overlay
+    --#{$prefix}app-overlay-page-bg-color: #{$app-overlay-page-bg-color-dark};  
+    --#{$prefix}app-overlay-page-card-bg-color: #{$app-overlay-page-card-bg-color-dark};  
+    --#{$prefix}app-overlay-page-card-border-color: #{$app-overlay-page-card-border-color-dark};  
+
+    --#{$prefix}app-overlay-sidebar-bg-color: #{$app-overlay-sidebar-bg-color-dark};
+
+    --#{$prefix}app-overlay-sidebar-menu-shadow-color: #{$app-overlay-sidebar-menu-shadow-color-dark};
+    --#{$prefix}app-overlay-sidebar-menu-icon-color: #{$app-overlay-sidebar-menu-icon-color-dark};
+    --#{$prefix}app-overlay-sidebar-menu-link-bg-color: #{$app-overlay-sidebar-menu-link-bg-color-dark};
+}

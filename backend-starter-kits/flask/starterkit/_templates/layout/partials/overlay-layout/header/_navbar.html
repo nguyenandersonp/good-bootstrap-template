@@ -1,0 +1,47 @@
+<!--begin::Navbar-->
+<div class="app-navbar align-items-center flex-shrink-0">
+	<!--begin::Search-->
+	<div class="app-navbar-item ms-2 ms-lg-4">
+		{% include themeDir('partials/overlay-layout/search/_inline.html') %}
+	</div>
+	<!--end::Search-->
+	<!--begin::Notifications-->
+	<div class="app-navbar-item ms-2 ms-lg-4">
+		<!--begin::Menu- wrapper-->
+		<a href="#" class="btn btn-custom btn-icon btn-outline btn-icon-gray-700 btn-active-icon-primary" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end" data-kt-menu-flip="bottom">{{ getIcon('element-11', 'fs-1') }}</a>
+		{% include 'partials/menus/_quick-links-menu.html' %}
+		<!--end::Menu wrapper-->
+	</div>
+	<!--end::Notifications-->
+	<!--begin::Chat-->
+	<div class="app-navbar-item ms-2 ms-lg-4">
+		<a href="#" id="kt_drawer_chat_toggle" class="btn btn-custom btn-outline btn-icon btn-icon-gray-700 btn-active-icon-primary" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end" data-kt-menu-flip="bottom">{{ getIcon('message-text-2', 'fs-1') }}</a>
+	</div>
+	<!--end::Chat-->
+	<!--begin::Theme mode-->
+	<div class="app-navbar-item ms-2 ms-lg-4">
+		{% include 'partials/theme-mode/_main.html' %}
+	</div>
+	<!--end::Theme mode-->
+	<!--begin::Quick links-->
+	<div class="app-navbar-item ms-2 ms-lg-4">
+		<!--begin::Menu wrapper-->
+		<a href="#" class="btn btn-icon btn-primary fw-bold" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end" data-kt-menu-flip="bottom">
+			<span class="fs-5">3</span>
+		</a>
+		{% include 'partials/menus/_notifications-menu.html' %}
+		<!--end::Menu wrapper-->
+	</div>
+	<!--end::Quick links-->
+	<!--begin::User menu-->
+	<div class="app-navbar-item ms-2 ms-lg-4">
+		<!--begin::Menu wrapper-->
+		<div class="btn btn-custom btn-icon symbol" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
+			<img src="{{ asset('media/avatars/300-1.jpg') }}" class="mh-100 mw-100" alt="user" />
+		</div>
+		{% include 'partials/menus/_user-account-menu.html' %}
+		<!--end::Menu wrapper-->
+	</div>
+	<!--end::User menu-->
+</div>
+<!--end::Navbar-->

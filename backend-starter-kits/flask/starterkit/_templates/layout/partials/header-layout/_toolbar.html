@@ -1,0 +1,30 @@
+<!--begin::Toolbar-->
+<div id="kt_app_toolbar" class="app-toolbar pt-8">
+	<!--begin::Toolbar container-->
+	<div id="kt_app_toolbar_container" class="app-container container-xxl d-flex flex-stack flex-wrap gap-2">
+		{% include themeDir('partials/header-layout/_page-title.html') %}
+		<!--begin::Actions-->
+		<div class="d-flex align-items-center gap-2 gap-lg-3">
+			<!--begin::Label-->
+			<span class="fs-7 fw-bold text-gray-800 flex-shrink-0 me-1">Sort By:</span>
+			<!--end::Label-->
+			<!--begin::Select-->
+			<select class="form-select form-select-sm w-100px bg-body me-3 border-body" data-control="select2" data-placeholder="Latest" data-hide-search="true">
+				<option value=""></option>
+				<option value="1" selected="selected">Latest</option>
+				<option value="2">In Progress</option>
+				<option value="3">Done</option>
+			</select>
+			<!--end::Select-->
+			<!--begin::Actions-->
+			<div class="d-flex align-items-center">
+				<button type="button" class="btn btn-sm btn-icon bg-body me-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Enable grid view">{{ getIcon('element-11', 'fs-5 text-primary') }}</button>
+				<button type="button" class="btn btn-sm btn-icon btn-active-icon-primary bg-body" data-bs-toggle="tooltip" data-bs-placement="top" title="Enable row view">{{ getIcon('row-horizontal', 'fs-5 text-gray-600') }}</button>
+			</div>
+			<!--end::Actions-->
+		</div>
+		<!--end::Actions-->
+	</div>
+	<!--end::Toolbar container-->
+</div>
+<!--end::Toolbar-->

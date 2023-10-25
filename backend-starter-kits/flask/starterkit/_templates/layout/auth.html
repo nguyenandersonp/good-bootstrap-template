@@ -1,0 +1,78 @@
+{% extends 'layout/master.html' %}
+
+{% block layout %}
+
+<!--begin::Root-->
+<div class="d-flex flex-column flex-lg-row flex-column-fluid">
+    <!--begin::Aside-->
+    <div class="d-flex flex-column flex-lg-row-auto bg-primary w-xl-600px positon-xl-relative">
+        <!--begin::Wrapper-->
+        <div class="d-flex flex-column position-xl-fixed top-0 bottom-0 w-xl-600px scroll-y">
+            <!--begin::Header-->
+            <div class="d-flex flex-row-fluid flex-center flex-column text-center p-5 p-lg-20">          
+                <!--begin::Logo-->
+                <a href="/" class="py-9 pt-lg-20">
+                    <img alt="Logo" src="{{ asset('media/logos/default.svg') }}" class="h-35px h-lg-40px" />
+                </a>    
+                <!--end::Logo-->
+
+                <!--begin::Title-->
+                <h1 class="d-none d-lg-block fw-bold text-white fs-2qx pb-5 pb-md-10">
+                    Welcome to Good
+                </h1>
+                <!--end::Title-->
+
+                <!--begin::Description-->
+                <p class="d-none d-lg-block fw-semibold fs-2 text-white">
+                    Plan your blog post by choosing a topic creating <br/>
+                    an outline and checking facts
+                </p>
+                <!--end::Description-->
+            </div>
+            <!--end::Header-->
+
+            <!--begin::Illustration-->
+            <div class="d-none d-lg-flex flex-row-auto bgi-no-repeat bgi-position-x-center bgi-size-contain bgi-position-y-bottom min-h-200px min-h-lg-350px mb-20" 
+			style="background-image: url('{{ asset('media/illustrations/sketchy-1/2.png') }}')">
+            </div>
+            <!--end::Illustration-->
+        </div>
+        <!--end::Wrapper-->
+    </div>
+    <!--begin::Aside-->
+
+    <!--begin::Body-->
+    <div class="d-flex flex-column flex-lg-row-fluid py-10">
+        <!--begin::Content-->
+        <div class="d-flex flex-center flex-column flex-column-fluid">
+            <!--begin::Wrapper-->
+            <div class="w-lg-550px p-10 p-lg-15 mx-auto">
+                <!--begin::Page-->
+				{% block content %}
+				{% endblock content %}
+				<!--end::Page-->
+            </div>
+            <!--end::Wrapper-->
+        </div>
+        <!--end::Content-->       
+
+        <!--begin::Footer-->
+        <div class="d-flex flex-center flex-wrap fs-6 p-5 pb-0">
+            <!--begin::Links-->
+            <div class="d-flex flex-center fw-semibold fs-6">
+                <a href="#" class="text-muted text-hover-primary px-2" target="_blank">About</a>
+
+                <a href="#" class="text-muted text-hover-primary px-2" target="_blank">Support</a>
+                
+                <a href="#" class="text-muted text-hover-primary px-2" target="_blank">Purchase</a>
+            </div>
+            <!--end::Links-->
+        </div>
+        <!--end::Footer-->
+    </div>
+    <!--end::Body-->
+</div>
+<!--end::Root-->
+
+{% endblock layout %}
+

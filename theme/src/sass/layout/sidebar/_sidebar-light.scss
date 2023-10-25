@@ -1,0 +1,157 @@
+//
+// Sidebar
+//
+
+[data-kt-app-layout="light-sidebar"] {
+    .app-sidebar {
+        background-color: var(--#{$prefix}app-light-sidebar-bg-color);
+
+        .hover-scroll-y {        
+            @include scrollbar-color(transparent, var(--#{$prefix}app-light-sidebar-scrollbar-color));
+        }
+
+        .separator {
+            border-bottom: 1px dashed var(--#{$prefix}app-light-sidebar-separator-color);
+        }
+    }    
+
+    .app-sidebar-toolbar {
+        .btn-custom {
+            @include button-custom-variant(
+                $color: null, 
+                $icon-color: var(--#{$prefix}app-light-sidebar-btn-custom-color), 
+                $border-color: null, 
+                $bg-color: var(--#{$prefix}app-light-sidebar-btn-custom-bg-color), 
+
+                $color-active: null, 
+                $icon-color-active: null, 
+                $border-color-active: null, 
+                $bg-color-active: null
+            );
+        }
+
+        .form-select-custom {
+            background-color: var(--#{$prefix}app-light-sidebar-select-custom-bg-color); 
+            border-color: transparent;   
+
+            .select2-selection__rendered {
+                color: var(--#{$prefix}app-light-sidebar-select-custom-color);    
+            }            
+        }
+    }
+
+    .app-sidebar-menu {
+        .menu {
+            // Root links
+            > .menu-item {
+                .menu-heading {
+                    color: var(--#{$prefix}app-light-sidebar-menu-heading-color);
+                }
+
+                @include menu-link-default-state( 
+                    $title-color: var(--#{$prefix}app-light-sidebar-menu-root-link-color), 
+                    $icon-color: var(--#{$prefix}app-light-sidebar-menu-root-icon-color), 
+                    $bullet-color: var(--#{$prefix}app-light-sidebar-menu-root-bullet-color), 
+                    $arrow-color: var(--#{$prefix}app-light-sidebar-menu-root-arrow-color), 
+                    $bg-color: null, 
+                    $all-links: false
+                );
+
+                @include menu-link-hover-state( 
+                    $title-color: var(--#{$prefix}app-light-sidebar-menu-root-link-color-hover), 
+                    $icon-color: var(--#{$prefix}app-light-sidebar-menu-root-icon-color-hover), 
+                    $bullet-color: var(--#{$prefix}app-light-sidebar-menu-root-bullet-color-hover), 
+                    $arrow-color: var(--#{$prefix}app-light-sidebar-menu-root-arrow-color-hover), 
+                    $bg-color: null, 
+                    $all-links: false
+                );
+
+                @include menu-link-here-state( 
+                    $title-color: var(--#{$prefix}app-light-sidebar-menu-root-link-color-hover), 
+                    $icon-color: var(--#{$prefix}app-light-sidebar-menu-root-icon-color-hover), 
+                    $bullet-color: var(--#{$prefix}app-light-sidebar-menu-root-bullet-color-hover), 
+                    $arrow-color: var(--#{$prefix}app-light-sidebar-menu-root-arrow-color-hover), 
+                    $bg-color: null, 
+                    $all-links: false
+                );
+
+                @include menu-link-show-state( 
+                    $title-color: var(--#{$prefix}app-light-sidebar-menu-root-link-color-hover), 
+                    $icon-color: var(--#{$prefix}app-light-sidebar-menu-root-icon-color-hover), 
+                    $bullet-color: var(--#{$prefix}app-light-sidebar-menu-root-bullet-color-hover), 
+                    $arrow-color: var(--#{$prefix}app-light-sidebar-menu-root-arrow-color-hover), 
+                    $bg-color: null, 
+                    $all-links: false
+                );
+
+                @include menu-link-active-state( 
+                    $title-color: var(--#{$prefix}primary-inverse), 
+                    $icon-color: var(--#{$prefix}primary-inverse), 
+                    $bullet-color: var(--#{$prefix}primary-inverse), 
+                    $arrow-color: var(--#{$prefix}primary-inverse), 
+                    $bg-color: var(--#{$prefix}primary), 
+                    $all-links: false
+                );
+            }
+
+            // Child links
+            > .menu-item {
+                .menu-item {
+                    @include menu-link-default-state( 
+                        $title-color: var(--#{$prefix}app-light-sidebar-menu-link-color), 
+                        $icon-color: var(--#{$prefix}app-light-sidebar-menu-icon-color), 
+                        $bullet-color: var(--#{$prefix}app-light-sidebar-menu-bullet-color), 
+                        $arrow-color: var(--#{$prefix}app-light-sidebar-menu-arrow-color), 
+                        $bg-color: null, 
+                        $all-links: true
+                    );
+
+                    @include menu-link-hover-state( 
+                        $title-color: var(--#{$prefix}app-light-sidebar-menu-link-color-hover), 
+                        $icon-color: var(--#{$prefix}app-light-sidebar-menu-icon-color-hover), 
+                        $bullet-color: var(--#{$prefix}app-light-sidebar-menu-bullet-color-hover), 
+                        $arrow-color: var(--#{$prefix}app-light-sidebar-menu-arrow-color-hover), 
+                        $bg-color: null, 
+                        $all-links: true
+                    );
+
+                    @include menu-link-here-state( 
+                        $title-color: var(--#{$prefix}app-light-sidebar-menu-link-color-hover), 
+                        $icon-color: var(--#{$prefix}app-light-sidebar-menu-icon-color-hover), 
+                        $bullet-color: var(--#{$prefix}app-light-sidebar-menu-bullet-color-hover), 
+                        $arrow-color: var(--#{$prefix}app-light-sidebar-menu-arrow-color-hover), 
+                        $bg-color: null, 
+                        $all-links: true
+                    );
+
+                    @include menu-link-show-state( 
+                        $title-color: var(--#{$prefix}app-light-sidebar-menu-link-color-hover), 
+                        $icon-color: var(--#{$prefix}app-light-sidebar-menu-icon-color-hover), 
+                        $bullet-color: var(--#{$prefix}app-light-sidebar-menu-bullet-color-hover), 
+                        $arrow-color: var(--#{$prefix}app-light-sidebar-menu-arrow-color-hover), 
+                        $bg-color: null, 
+                        $all-links: true
+                    );
+
+                    @include menu-link-active-state( 
+                        $title-color: var(--#{$prefix}primary-inverse), 
+                        $icon-color: var(--#{$prefix}primary-inverse), 
+                        $bullet-color: var(--#{$prefix}primary-inverse), 
+                        $arrow-color: var(--#{$prefix}primary-inverse), 
+                        $bg-color: var(--#{$prefix}primary), 
+                        $all-links: true
+                    );                       
+                }
+            }   
+        }       
+    }
+
+    .app-sidebar-logo {
+        .btn-icon-custom-color {
+            i,
+            svg {
+                color: var(--#{$prefix}app-light-sidebar-logo-icon-custom-color);
+            }
+        }
+    }
+}
